@@ -22,11 +22,33 @@
     }
 
   </style>
+  <style>
+    .right-menu {
+      width: 320px;
+      min-width: 320px;
+      height: 100%;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      margin: 0;
+      right: -320px;
+      padding: 15px 20px;
+      -webkit-transition: right 0.3s;
+      -moz-transition: right 0.3s;
+      transition: right 0.3s;
+      background: #16a085;
+      z-index: 2000;
+    }
+    .right-menu.active {
+      right: 0;
+    }
+
+  </style>
   <link rel="icon" href="img/teddy_shark4_ico.ico" type="image/x-icon">
 </head>
 
 <body>
-
+<div class="right-menu">Hello</div>
   <!-- Navbar -->
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
     <div class="container">
@@ -622,6 +644,10 @@
   <script type="text/javascript">
     // Animations initialization
     new WOW().init();
+    var rightMenu = document.querySelector('.yButton')
+    rightMenu.addEventListener("click", function() {
+        document.querySelector('.yButton').classList.add('active');
+    });
   </script>
   <script type="text/javascript" src="https://w253402.yclients.com/widgetJS" charset="UTF-8"></script>
 </body>
