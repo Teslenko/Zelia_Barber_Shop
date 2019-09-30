@@ -19,3 +19,13 @@ body,
 /* Footer color for sake of consistency with Navbar */
 .page-footer {
   background-color: #1C2331; }
+
+.right {
+  position: absolute;
+  display: none;
+  width: 300px;
+  height: 100vh;
+  right: 0;
+  background-color: white;
+
+}
