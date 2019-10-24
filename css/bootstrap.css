@@ -9760,6 +9760,13 @@ button.bg-dark:focus {
   text-align: center !important;
 }
 
+.top-baner_text{
+  width: 450px;
+  margin-bottom: 48px;
+  line-height: 1.8;
+  color: #aeaeae;
+}
+
 @media (min-width: 576px) {
   .text-sm-left {
     text-align: left !important;

@@ -21,6 +21,24 @@
       Object.defineProperty(target, descriptor.key, descriptor);
     }
   }
+    $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            if (target.length) {
+                $('html, body').animate({
+                    scrollTop: target.offset().top
+                }, 1000, "easeInOutExpo");
+                return false;
+            }
+        }
+    });
+
+    $('#sidebar-wrapper .js-scroll-trigger').click(function() {
+        $("#sidebar-wrapper").removeClass("active");
+        $(".menu-toggle").removeClass("active");
+        $(".menu-toggle > .fa-bars, .menu-toggle > .fa-times").toggleClass("fa-bars fa-times");
+    });
 
   function _createClass(Constructor, protoProps, staticProps) {
     if (protoProps) _defineProperties(Constructor.prototype, protoProps);
