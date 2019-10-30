@@ -54,7 +54,7 @@
 
 <div class="right-menu">Hello</div>
   <!-- Navbar -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar" style="opacity: 0.70;">
     <div class="container">
 
       <!-- Brand -->
@@ -81,7 +81,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about-us"  style="font-family:Arial Regular">О Нас</a>
+            <a class="nav-link js-scroll-trigger" href="#about-us"  style="font-family:Arial Regular">Наши Работы</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#news" style="font-family:Arial Regular" >Новости</a>
@@ -113,8 +113,10 @@
 
       <!-- Content -->
       <div class="text-center white-text mx-5 wow fadeIn">
-        <h1 class="mb-4">
-          <strong>Стрижка и Бритьё</strong>
+
+          <h1  class="mb-4" style="text-align: center">
+          <strong style=" font-family: 'Montserrat', sans-serif; font-size: 60px;">Стрижка <br> Бритьё
+          </strong>
         </h1>
 
         <p>
@@ -179,69 +181,129 @@
       <!--Section: Main features & Quick Start-->
       <section id="about-us">
 
-        <h3 class="h3 text-center mb-5">О нас</h3>
+        <h3 class="h3 text-center mb-5">Наши Работы</h3>
 
         <!--Grid row-->
-        <div class="row wow fadeIn">
+        <!--Carousel Wrapper-->
+        <div id="multi-item-example" class="carousel slide carousel-multi-item carousel-multi-item-2" data-ride="carousel">
 
-          <!--Grid column-->
-          <div class="col-lg-6 col-md-12 px-4">
+          <!--Controls-->
+          <div class="controls-top">
+            <a class="black-text" href="#multi-item-example" data-slide="prev"><i class="fas fa-angle-left fa-3x pr-3"></i></a>
+            <a class="black-text" href="#multi-item-example" data-slide="next"><i class="fas fa-angle-right fa-3x pl-3"></i></a>
+          </div>
+          <!--/.Controls-->
 
-            <!--First row-->
-            <div class="row">
-              <div class="col-1 mr-3">
-                <i class="fas fa-code fa-2x indigo-text"></i>
+          <!--Slides-->
+          <div class="carousel-inner" role="listbox">
+
+            <!--First slide-->
+            <div class="carousel-item active">
+
+              <div class="col-md-3 mb-3">
+                <div class="card">
+                  <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(38).jpg"
+                       alt="Card image cap">
+                </div>
               </div>
-              <div class="col-10">
-                <h5 class="feature-title">Работа</h5>
-                <p class="grey-text">Работая у нас, вы всегда сможете реализовать свой опыт и достичь максимальных результатов</p>
+
+              <div class="col-md-3 mb-3">
+                <div class="card">
+                  <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(19).jpg"
+                       alt="Card image cap">
+                </div>
               </div>
+
+              <div class="col-md-3 mb-3">
+                <div class="card">
+                  <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(42).jpg"
+                       alt="Card image cap">
+                </div>
+              </div>
+
+              <div class="col-md-3 mb-3">
+                <div class="card">
+                  <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(8).jpg"
+                       alt="Card image cap">
+                </div>
+              </div>
+
             </div>
-            <!--/First row-->
+            <!--/.First slide-->
 
-            <div style="height:30px"></div>
+            <!--Second slide-->
+            <div class="carousel-item">
 
-            <!--Second row-->
-            <div class="row">
-              <div class="col-1 mr-3">
-                <i class="fas fa-book fa-2x blue-text"></i>
+              <div class="col-md-3 mb-3">
+                <div class="card">
+                  <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(53).jpg"
+                       alt="Card image cap">
+                </div>
               </div>
-              <div class="col-10">
-                <h5 class="feature-title">Обучение</h5>
-                <p class="grey-text">Всегда мечтали работать барбером и делать улетные стрижки? Мы можем вас обучить этому, а также в дальнейшем предоставить место работы!
-                </p>
+
+              <div class="col-md-3 mb-3">
+                <div class="card">
+                  <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(25).jpg"
+                       alt="Card image cap">
+                </div>
               </div>
+
+              <div class="col-md-3 mb-3">
+                <div class="card">
+                  <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(47).jpg"
+                       alt="Card image cap">
+                </div>
+              </div>
+
+              <div class="col-md-3 mb-3">
+                <div class="card">
+                  <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(26).jpg"
+                       alt="Card image cap">
+                </div>
+              </div>
+
             </div>
-            <!--/Second row-->
+            <!--/.Second slide-->
 
-            <div style="height:30px"></div>
+            <!--Third slide-->
+            <div class="carousel-item">
 
-            <!--Third row-->
-            <div class="row">
-              <div class="col-1 mr-3">
-                <i class="fas fa-cut fa-2x cyan-text"></i>
+              <div class="col-md-3 mb-3">
+                <div class="card">
+                  <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(64).jpg"
+                       alt="Card image cap">
+                </div>
               </div>
-              <div class="col-10">
-                <h5 class="feature-title">Наши работы</h5>
-                <p class="grey-text">Перейдя по ссылке, вы сможете понять, почему именно у нас стоит делать стрижки</p>
+
+              <div class="col-md-3 mb-3">
+                <div class="card">
+                  <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(51).jpg"
+                       alt="Card image cap">
+                </div>
               </div>
+
+              <div class="col-md-3 mb-3">
+                <div class="card">
+                  <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(59).jpg"
+                       alt="Card image cap">
+                </div>
+              </div>
+
+              <div class="col-md-3 mb-3">
+                <div class="card">
+                  <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(63).jpg"
+                       alt="Card image cap">
+                </div>
+              </div>
+
             </div>
-            <!--/Third row-->
+            <!--/.Third slide-->
 
           </div>
-          <!--/Grid column-->
-
-          <!--Grid column-->
-          <div class="col-lg-6 col-md-12">
-
-            <p class="h5 text-center mb-4">Посмотрев несколько минут этого видео, вы поймете в чем сила Английвской Стрижки</p>
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/OnCNhpKiB0E" allowfullscreen></iframe>
-            </div>
-          </div>
-          <!--/Grid column-->
+          <!--/.Slides-->
 
         </div>
+        <!--/.Carousel Wrapper-->
         <!--/Grid row-->
 
       </section>
