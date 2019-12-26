@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ukr">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>TEDDY SHARK / BARBER SHOP</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="../css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="../css/style.min.css" rel="stylesheet">
+    <style type="text/css">
+        @media (min-width: 800px) and (max-width: 850px) {
+            .navbar:not(.top-nav-collapse) {
+                background: #1C2331 !important;
+            }
+        }
+    </style>
+
+
+    <style>
+        .thumb {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 0;
+        }
+    </style>
+    <link rel="icon" href="../img/new_teddy_shark4_ico2.ico" type="image/x-icon">
+
+</head>
+
+<body >
+
+<!--Main Layout-->
+
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+    <div class="container">
+
+        <!-- Brand -->
+        <!--<div class="logo" onclick="window.location.href='index.html'">-->
+        <!--<a class="navbar-brand"  target="_blank">-->
+        <!--<img src="img/teddy_shark4.png" alt="logo" height="120" width="110">-->
+        <!--</a>-->
+        <!--</div>-->
+
+        <!-- Collapse -->
+        <button   class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background-color: black" >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <ul class="navbar-nav nav-flex-icons navbar-toggler" data-toggle="collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <li class="nav-item">
+                <a href="https://www.facebook.com/TeddySharkBarbershop/" target="_blank">
+                    <i class="fab fa-facebook mr-3" style="color: black;"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="https://www.instagram.com/teddy.shark.barbershop/" target="_blank">
+                    <i class="fab fa-instagram" style="color: black;"></i>
+                </a>
+            </li>
+        </ul>
+
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <!-- Left -->
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link text-dark" href="../index.html" style="../font-family:Arial Regular">Головна
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger text-dark" href="../static_page/ru_ours_masters.html"  style="../font-family:Arial Regular" >Наши Мастера</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger text-dark" href="../static_page/ru_our_works.html"  style="../font-family:Arial Regular">Наши Работы</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger text-dark" href="../static_page/ru_price.html" style="../font-family:Arial Regular">Цены</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark" id="partner_support" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Услуги </a>
+                    <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="../static_page/ru_services.html">Комплексные Мужские Стрижки с Бородой</a>
+                        <a class="dropdown-item" href="../static_page/ru_servicesBeardHaircut.html">Королевское Бритьё</a>
+                        <a class="dropdown-item" href="../static_page/ru_servicesMenHaircat.html">Стрижка Бороды</a>
+                        <a class="dropdown-item" href="../static_page/ru_servicesRoyalShave.html">Королевское Бритьё</a>
+                    </div>
+                </li>&nbsp;
+                <!--<li class="nav-item">-->
+                    <!--<a class="nav-link js-scroll-trigger text-dark" href="../static_page/ru_blog.html" style="../font-family:Arial Regular">Блог</a>-->
+                <!--</li>-->
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger text-dark" href="../static_page/ru_contacts.html" style="../font-family:Arial Regular" >Контакты</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav nav-flex-icons">
+                <li class="nav-item">
+                    <a href="https://www.facebook.com/TeddySharkBarbershop/" target="_blank">
+                        <i class="fab fa-facebook mr-3" style="color: black;"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://www.instagram.com/teddy.shark.barbershop/" target="_blank">
+                        <i class="fab fa-instagram" style="color: black;"></i>
+                    </a>
+                </li>
+            </ul>
+            <!-- Правая сторона Хэдэра -->
+            <ul class="navbar-nav nav-flex-icons">
+            </ul>
+
+            <ul class="navbar-nav nav-flex-icons " style="padding-left: 30px;" >
+                <li class="nav-item">
+                    <a href="../static_page/ua_services.html" class="nav-link text-dark" >
+                        <i><strong>UKR</strong></i>
+                    </a>
+                </li>
+                <!--<li class="nav-item">-->
+                    <!--<a href="../static_page/en_index.html" class="nav-link text-dark" >-->
+                        <!--<i><strong>ENG</strong></i>-->
+                    <!--</a>-->
+                <!--</li>-->
+            </ul>
+        </div>
+
+    </div>
+</nav>
+
+<!--Section: Main info-->
+<section class="mt-5 wow fadeIn" id="about_us" >
+
+    <!--Grid row-->
+    <h1 class="h3 text-center mb-5" ></h1>
+
+    <div class="rounded mx-auto d-block" style="max-width:40%">
+        <img src="../img/teddy_basic.jpg" class="img-fluid">
+        <hr class="my-5">
+    </div>
+</section>
+<!--Section: Main info-->
+
+<!--Section: services info -->
+<section class="mt-5 wow fadeIn" id="services" >
+
+    <div class="container" style="max-width: 1400px;">
+
+        <h3><b>Королевское бритьё: королевское не по цене, а по качеству</b></h3>
+        <p class="mb-4 d-md-block">
+            Мужчины бреют щетину не со вчерашнего дня и даже не из прошлого столетия:
+            этот ритуал уходит своими корнями в глубокую древность. Приспособления для бритья, конечно,
+            с тех пор поменялись уже не один десяток раз. Однако сам процесс остался неизменным.
+            К отдельной категории инструментов можно отнести опасные бритвы со сменными лезвиями.
+            Далеко не каждый современный представитель сильной половины человечества знает как управляться с этой капризной штукой.
+            Собственно говоря «королевское бритье» и означает бритье опасной бритвой.
+            И несмотря на название, цена на королевское бритье бороды или головы в барбершопе Teddy Shark остается доступной всем и каждому.
+        </p>
+        <p class="mb-4 d-md-block">
+            Парикмахерская предлагает уникальную возможность взглянуть с несколько иного ракурса на обыденные манипуляции.
+            Этот процесс поможет вспомнить о забытых традициях бритья в английских цирюльнях 18 века и перенесёт Вас в века, наполненные аристократичностью и роскошью.
+            Королевское бритье бороды и головы в Киеве – настоящий ритуал, в основе которого лежит качественное обслуживание клиентов на высшем уровне.
+        </p>
+        <h3>Как происходит процедура королевского бритья бороды?</h3>
+        <ul class="mb-4 d-md-block" >
+            <li style="text-align: left;">По приходу в барбершоп Teddy Shark клиент садится в удобное кожаное кресло.</li>
+            <li style="text-align: left;">Мастера накрывают его накидкой и рассматривают лицо на предмет наличия родинок или шрамов.
+                Эти образования могут быть причиной неприятностей при проведении процедуры королевского бритья в салоне. В случаях, когда осмотр лица через бороду невозможен или затруднителен,
+                мастера спрашивают посетителя о возможных или известных ему проблемах на собственном лице.</li>
+            <li style="text-align: left;">Далее барберы кладут на лицо теплое влажное полотенцем и массируют кожу.</li>
+            <li style="text-align: left;">После этого наносится специальное косметическое средство в виде крема или масла.
+                Иногда компресс кладётся несколько раз для увеличения эффекта.</li>
+            <li style="text-align: left;">Когда подготовительный процесс кожи завершен, и она готова к бритью, мастер начинает подготавливать
+                пену для бритья в чаше или непосредственно на лице.</li>
+            <li style="text-align: left;">После аккуратно выполняется сама процедура бритья опасной бритвой.</li>
+            <li style="text-align: left;">Затем барбер кладёт на кожу лица прохладный компресс и наносит лосьон для ухода, попутно делая лёгкий массаж.</li>
+        </ul>
+        <p class="mb-4 d-md-block">
+            Кстати об используемых косметических средствах… Поскольку мастера Teddy Shark - профессиональные барберы, они выбирают наиболее оптимальный способ ухода,
+            который зависит от типа кожи клиента и времени года. Именно так данная процедура становится реальным королевским бритьём.
+        </p>
+        <h3>Оцените все преимущества услуги для настоящих аристократов</h3>
+        <p class="mb-4 d-md-block" style="text-align: left;">
+            Что зависит от Teddy Shark…
+        </p>
+        <ul class="mb-4 d-md-block" >
+            <li style="text-align: left;">Процесс часто именуют настоящим мужским ритуалом, это значит, что проводить его необходимо по строго прописанным веками правилам.</li>
+            <li style="text-align: left;">Барбер не стягивает кожу, что позволяет избежать ссадин и порезов.</li>
+            <li style="text-align: left;">Для каждого нового клиента мы используем новое лезвие, прошедшее специальную обработку.
+                Так барберы исповедуют современные правила гигиены и безопасности, в чём каждый клиент может быть уверен на все 100%.</li>
+        </ul>
+        <p class="mb-4 d-md-block" style="text-align: left;">
+                Что зависит непосредственно от самой процедуры…
+        </p>
+        <ul class="mb-4 d-md-block" >
+            <li style="text-align: left;">Этот метод считается наиболее эффективным для мужчин всех возрастов, поскольку позволяет сохранить эффект на длительное время.
+                Королевское бритьё – значит чистое бритьё.</li>
+            <li style="text-align: left;">Многие мужчины сталкиваются с неприятным ощущением стянутости кожи,
+                раздражениями и порезами при пользовании обычным станком или бритвенной машинкой. И это только самые распространённые и негативные последствия
+                разрекламированных косметических средств для бритья. Королевское не имеет подобных эффектов.</li>
+            <li style="text-align: left;">Необычный процесс обычных манипуляций подарит массу приятных впечатлений и 100%-ную удовлетворённость результатом.
+                А каким она ещё может быть, если чистое бритьё выполняют профессиональные барберы Teddy Shark?!</li>
+            <li style="text-align: left;">Помимо процедуры бритья, немаловажен и косметический уход с использованием профессиональных натуральных средств.
+                В результате Ваша кожа в достаточной степени увлажняется, восстанавливается и имеет здоровый вид.</li>
+        </ul>
+
+
+        <h3>Почему стоит заглянуть в барбершоп Teddy Shark?</h3>
+        <p class="mb-4 d-md-block">
+            Среди большого разнообразия услуг, которые предоставляет компания в Киеве,
+            сертифицированные мастера рады предложить постоянным и новым клиентам ощутить чистоту королевского бритья на себе.
+            Парикмахерская-барбершоп – место с особой атмосферой рокабилли, где принято сочетать классические традиции и современные изысканные элементы.
+            Обладая чувством стиля и роскоши, профессионалы столичного барбершопа рады подарить это ощущение всем нашим клиентам.
+            Они подарят Вам виртуозные преображения, здоровую кожу, уверенность в
+            себе и высокое качество работы с соблюдением строгих законов королевской техники, проверенной веками.
+            Если Вы цените качество во всём, обращайтесь в Teddy Shark, чтобы испытать на себе наилучший вид бритья для настоящего мужчины.
+        </p>
+    </div>
+
+</section>
+<!--Section: services info-->
+
+<main>
+    <div class="container" >
+        <a class="yButton bottom right" href="https://n253402.yclients.com/company:247706" style="z-index: 10001;" target="_blank">
+            <div class="yButtonBackground" style="background-color: rgb(217, 31, 35);">
+
+            </div>
+            <div class="yButtonWave" style="border-color: rgb(217, 31, 35); color: rgb(217, 31, 35);">
+
+            </div>
+            <div class="yButtonText">Онлайн запись
+            </div>
+            <div class="yButtonIcon">
+
+            </div>
+        </a>
+
+    </div>
+</main>
+<!--Main layout-->
+
+<!--Footer-->
+<footer class="page-footer text-center font-small mt-4 wow fadeIn">
+
+
+
+    <hr class="my-4">
+
+    <!-- Social icons -->
+    <div class="pb-4">
+        <a href="https://www.facebook.com/TeddySharkBarbershop/" target="_blank">
+            <i class="fab fa-facebook mr-3 text-dark"></i>
+        </a>
+        <a href="https://www.instagram.com/teddy.shark.barbershop/" target="_blank">
+            <i class="fab fa-instagram text-dark"></i>
+        </a>
+    </div>
+    <!-- Social icons -->
+
+    <!--Copyright-->
+    <div class="py-3 text-dark">
+        © 2019
+        <a class="text-dark" href="https://www.facebook.com/akvelibrium" target="_blank"> <strong >TeslVova Development</strong> </a>
+    </div>
+    <!--/.Copyright-->
+
+</footer>
+<!--/.Footer-->
+
+<!-- SCRIPTS -->
+<!-- JQuery -->
+<script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="../js/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="../js/mdb.min.js"></script>
+<!-- Initializations -->
+<script type="text/javascript">
+    // Animations initialization
+    new WOW().init();
+    var rightMenu = document.querySelector('.yButton')
+    rightMenu.addEventListener("click", function() {
+        document.querySelector('.yButton').classList.add('active');
+    });
+
+
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.js"></script>
+<script type="text/javascript" src="https://w253402.yclients.com/widgetJS" charset="UTF-8"></script>
+</body>
+
+</html>

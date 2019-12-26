@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="ukr">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>TEDDY SHARK / BARBER SHOP</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="../css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="../css/style.min.css" rel="stylesheet">
+    <style type="text/css">
+        @media (min-width: 800px) and (max-width: 850px) {
+            .navbar:not(.top-nav-collapse) {
+                background: #1C2331 !important;
+            }
+        }
+    </style>
+
+
+    <style>
+        .thumb {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 0;
+        }
+    </style>
+    <link rel="icon" href="../img/new_teddy_shark4_ico2.ico" type="image/x-icon">
+
+</head>
+
+<body >
+
+<!--Main Layout-->
+
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+    <div class="container">
+
+        <!-- Brand -->
+        <!--<div class="logo" onclick="window.location.href='index.html'">-->
+        <!--<a class="navbar-brand"  target="_blank">-->
+        <!--<img src="img/teddy_shark4.png" alt="logo" height="120" width="110">-->
+        <!--</a>-->
+        <!--</div>-->
+
+        <!-- Collapse -->
+        <button   class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background-color: black" >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <ul class="navbar-nav nav-flex-icons navbar-toggler" data-toggle="collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <li class="nav-item">
+                <a href="https://www.facebook.com/TeddySharkBarbershop/" target="_blank">
+                    <i class="fab fa-facebook mr-3" style="color: black;"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="https://www.instagram.com/teddy.shark.barbershop/" target="_blank">
+                    <i class="fab fa-instagram" style="color: black;"></i>
+                </a>
+            </li>
+        </ul>
+
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <!-- Left -->
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link text-dark" href="../index.html" style="../font-family:Arial Regular">Головна
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger text-dark" href="../static_page/ru_ours_masters.html"  style="../font-family:Arial Regular" >Наши Мастера</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger text-dark" href="../static_page/ru_our_works.html"  style="../font-family:Arial Regular">Наши Работы</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger text-dark" href="../static_page/ru_price.html" style="../font-family:Arial Regular">Цены</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark" id="partner_support" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Услуги </a>
+                    <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="../static_page/ru_services.html">Комплексные Мужские Стрижки с Бородой</a>
+                        <a class="dropdown-item" href="../static_page/ru_servicesBeardHaircut.html">Королевское Бритьё</a>
+                        <a class="dropdown-item" href="../static_page/ru_servicesMenHaircat.html">Стрижка Бороды</a>
+                        <a class="dropdown-item" href="../static_page/ru_servicesRoyalShave.html">Королевское Бритьё</a>
+                    </div>
+                </li>&nbsp;
+                <!--<li class="nav-item">-->
+                    <!--<a class="nav-link js-scroll-trigger text-dark" href="../static_page/ru_blog.html" style="../font-family:Arial Regular">Блог</a>-->
+                <!--</li>-->
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger text-dark" href="../static_page/ru_contacts.html" style="../font-family:Arial Regular" >Контакты</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav nav-flex-icons">
+                <li class="nav-item">
+                    <a href="https://www.facebook.com/TeddySharkBarbershop/" target="_blank">
+                        <i class="fab fa-facebook mr-3" style="color: black;"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://www.instagram.com/teddy.shark.barbershop/" target="_blank">
+                        <i class="fab fa-instagram" style="color: black;"></i>
+                    </a>
+                </li>
+            </ul>
+            <!-- Правая сторона Хэдэра -->
+            <ul class="navbar-nav nav-flex-icons">
+            </ul>
+
+            <ul class="navbar-nav nav-flex-icons " style="padding-left: 30px;" >
+                <li class="nav-item">
+                    <a href="../static_page/ua_services.html" class="nav-link text-dark" >
+                        <i><strong>UKR</strong></i>
+                    </a>
+                </li>
+                <!--<li class="nav-item">-->
+                    <!--<a href="../static_page/en_index.html" class="nav-link text-dark" >-->
+                        <!--<i><strong>ENG</strong></i>-->
+                    <!--</a>-->
+                <!--</li>-->
+            </ul>
+        </div>
+
+    </div>
+</nav>
+<!--Section: Main info-->
+<section class="mt-5 wow fadeIn" id="about_us" >
+
+    <!--Grid row-->
+    <h1 class="h3 text-center mb-5" ></h1>
+
+    <div class="rounded mx-auto d-block" style="max-width:40%">
+        <img src="../img/teddy_basic.jpg" class="img-fluid">
+        <hr class="my-5">
+    </div>
+</section>
+<!--Section: Main info-->
+
+<!--Section: services info -->
+<section class="mt-5 wow fadeIn" id="services" >
+
+    <div class="container" style="max-width: 1400px;">
+
+        <h1><b>Стрижка бороды</b></h1>
+        <p class="mb-4 d-md-block">
+            С древности борода и усы были неотъемлемой особенностью мужчин. И если Вы полагаете,
+            что отрастить бороду или усы – значит просто предоставить возможность расти волосам как им вздумается, то Вы ошибаетесь.
+            Растительность на лице требует особого ежедневного, а также профессионального ухода.
+        </p>
+        <h3>Борода – тренд последних лет</h3>
+        <p class="mb-4 d-md-block">
+            Борода в той или иной степени всегда пользовалась популярностью, но сегодня она на пике своей славы.
+            Мода на обильную растительность на лице вернулась. Её считают признаком харизматичной сильной личности,
+            уверенного в себе мужчины, обладающего твердым характером. Современные мужчины не считают такой аксессуар
+            на лице чем-то связанным с историей и значением бороды в древности.
+            Обладатели бороды и усов должны посещать барбершоп по крайней мере единожды в месяц для поддержания их в здоровом и ухоженном виде.
+        </p>
+        <h3>Профессиональное предоставление услуг</h3>
+        <p class="mb-4 d-md-block">
+            В перечне услуг барбер парикмахерской Teddy Shark Вы сможете найти модную стрижку бороды и усов.
+            Однако подстричь бороду недостаточно: мастера-барберы, обладающие большим опытом работы и оригинальным чувством стиля,
+            смогут подчеркнуть индивидуальную форму растительности,
+            придавая ей опрятность и аккуратность. Парни из Teddy Shark виртуозно орудуют ножницами, опасной бритвой, машинкой и триммером.
+        </p>
+        <h3>Итак, Вы пришли в мужской салон-барбершоп…</h3>
+        <p class="mb-4 d-md-block">
+            Процедура стрижки бороды и усов начинается с предварительной консультации и согласования всех нюансов.
+            Мастера оговаривают с клиентом всевозможные варианты и подходящий дизайн щетины. Когда согласие достигнуто, начинается «магия превращения».
+        </p>
+
+        <ul class="mb-4 d-md-block" >
+            <li style="text-align: left;">Барбер корректирует форму бороды при помощи машинки и ножниц.</li>
+            <li style="text-align: left;">При необходимости осуществляет бритье щек и шеи опасной бритвой.</li>
+            <li style="text-align: left;">Далее в обязательном порядке с применением профессиональных
+                косметических средств осуществляет уход за кожей и растительностью на лице.</li>
+            <li style="text-align: left;">Не лишаются клиенты и без консультаций:
+                как и при помощи каких средств осуществлять уход за собственной бородой и усами в домашних условиях.</li>
+        </ul>
+
+        <h3>Непростой выбор формы</h3>
+        <p class="mb-4 d-md-block">
+            Многих клиентов интересует как выбрать ту или иную стрижку бороды? Общая рекомендация - определить густоту растительности
+            на лице и принять для себя решение необходимо ли скрывать скулы, удлинить лицо, припрятать нос.
+            Высокие мужчины – идеальные обладатели пушистых объёмных бород. Особам сильного пола небольшого роста следует
+            носить короткие бороды. Если у Вас светлый тон кожи, но темный оттенок волос,
+            лучше носите компактную бороду со сбритыми волосками на щеках. Обладатели светлых волос могут отращивать солидную растительность.
+        </p>
+
+        <h3>Топ-11 распространённых типов бород</h3>
+
+        <ol class="mb-4 d-md-block">
+            <li style="text-align: left;">Наиболее известной считается пышная и универсальная русская борода.
+                Она не требует особого ухода и своевременных процедур по коррекции.</li>
+            <li style="text-align: left;">Подкова-усы напоминает перевёрнутую подкову, являются прерогативой байкеров.</li>
+            <li style="text-align: left;">Якорь – отличается короткой стрижкой с удлинённым соединением на подбородке.
+                Здесь вырисовывается заострённый конец в сочетании с полоской щетины под нижней губой.
+                Она делает лицо визуально длиннее, поэтому мужчинам с треугольной и овальной формой такой тип не подойдет.</li>
+            <li style="text-align: left;">То же самое можно сказать и о бальбо, неширокой, неполной бороде, что заканчивается на средине щёк.
+                Покрывает подбородок с основанием нижней губы. Усы с разделением и выбритой полоской.</li>
+            <li style="text-align: left;">Голливудская характеризуется идеальными симметричными формами.
+                Визуально закрывает нижнюю челюсть и дополняется усами, соединёнными с бородой без бакенбардов.</li>
+            <li style="text-align: left;">«Подбородочный ремень» - стрижка, получившая своё название благодаря сходству с застегнутым ремнём
+                от одетого на голову шлема. Она соединяется длинными бакенбардами с волосами на голове.</li>
+            <li style="text-align: left;">Эспаньолка требует минимума растительности на лице. Она прикрывает исключительно подбородок.
+                Оригинальное сочетание усов и небольшой бороды может придать мужчине солидный вид и уверенность в себе.</li>
+            <li style="text-align: left;">Ярким представителем бороды «занавес» является знаменитый Росомаха.
+                Этот тип можно создать за счёт бакенбардов, спускающихся по овалу лица вниз. Шею и подбородок при этом выбривают наголо.</li>
+            <li style="text-align: left;">Французский Van Dyk – борода, сочетающая остроконечную бородку и тоненькие усы. Любимый типаж бороды мушкетёров.</li>
+            <li style="text-align: left;">RAP INDUSTRY STANDARD характеризуется тонюсенькой полоской волос по бокам вдоль подбородка. В соединении с «карандашными» усами она придает мужчине особого шарма.</li>
+            <li style="text-align: left;">«Воробей» - борода, характеризующаяся сходством с козлиной бородкой, разделенной на 2 плетёные косички.
+                Усы при этом спускаются вниз от уголков рта. В популяризацию этого типа бороды немалую лепту внес Капитан Джек-Воробей.
+            </li>
+        </ol>
+        <p class="mb-4 d-md-block">
+            В Teddy Shark Вы не просто получите качественные услуги, Вы расслабитесь и почувствуете, что уход за собой приносит исключительно приятные эмоции.
+        </p>
+
+    </div>
+
+</section>
+<!--Section: services info-->
+
+<main>
+    <div class="container" >
+        <a class="yButton bottom right" href="https://n253402.yclients.com/company:247706" style="z-index: 10001;" target="_blank">
+            <div class="yButtonBackground" style="background-color: rgb(217, 31, 35);">
+
+            </div>
+            <div class="yButtonWave" style="border-color: rgb(217, 31, 35); color: rgb(217, 31, 35);">
+
+            </div>
+            <div class="yButtonText">Онлайн запись
+            </div>
+            <div class="yButtonIcon">
+
+            </div>
+        </a>
+
+    </div>
+</main>
+<!--Main layout-->
+
+<!--Footer-->
+<footer class="page-footer text-center font-small mt-4 wow fadeIn">
+
+
+
+    <hr class="my-4">
+
+    <!-- Social icons -->
+    <div class="pb-4">
+        <a href="https://www.facebook.com/TeddySharkBarbershop/" target="_blank">
+            <i class="fab fa-facebook mr-3 text-dark"></i>
+        </a>
+        <a href="https://www.instagram.com/teddy.shark.barbershop/" target="_blank">
+            <i class="fab fa-instagram text-dark"></i>
+        </a>
+    </div>
+    <!-- Social icons -->
+
+    <!--Copyright-->
+    <div class="py-3 text-dark">
+        © 2019
+        <a class="text-dark" href="https://www.facebook.com/akvelibrium" target="_blank"> <strong >TeslVova Development</strong> </a>
+    </div>
+    <!--/.Copyright-->
+
+</footer>
+<!--/.Footer-->
+
+<!-- SCRIPTS -->
+<!-- JQuery -->
+<script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="../js/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="../js/mdb.min.js"></script>
+<!-- Initializations -->
+<script type="text/javascript">
+    // Animations initialization
+    new WOW().init();
+    var rightMenu = document.querySelector('.yButton')
+    rightMenu.addEventListener("click", function() {
+        document.querySelector('.yButton').classList.add('active');
+    });
+
+
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.js"></script>
+<script type="text/javascript" src="https://w253402.yclients.com/widgetJS" charset="UTF-8"></script>
+</body>
+
+</html>
